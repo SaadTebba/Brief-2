@@ -1,0 +1,251 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* ===================== Aside ===================== */
+
+aside {
+    background-color: #F44336;
+    width: 20%;
+    height: 100%;
+    z-index: 1;
+    position: fixed;
+    font-size: 20px;
+    color: white;
+}
+aside a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ===================== Main ===================== */
+
+main {
+    margin-left:340px ;
+}
+p {
+    max-width: 93%;
+}
+.paras {
+    margin-bottom: 15px;
+}
+
+/* ===================== h1 / h2 / h3 / h4 ===================== */
+
+h1 {
+    padding-top: 100px;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+h2 {
+    color: #F44336;
+    font-size: 46px;
+    font-weight: 600;
+    padding-bottom: 80px;
+}
+.h2padding {
+    padding-top: 80px;
+}
+h3 {
+    padding: 100px 0px 100px 0px;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px 15px 5px 15px;
+    margin: 0px 20px 5px 20px;
+}
+h4:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+/* ===================== Showcase Area ===================== */
+
+.images {
+    width: 540px;
+    margin-right: 10px;
+    padding-bottom: 2px;
+    opacity: 0.8;
+}
+figure img:hover {
+    opacity: 1;
+}
+
+/* ===================== Services / Designers ===================== */
+
+#boldtext {
+    font-weight: 600;
+    color: black;
+}
+.designername {
+    font-weight: 400;
+    font-size: 26px;
+}
+.ceo {
+    opacity: 0.5;
+}
+#designers div img {
+    width: 360px;
+    filter: grayscale(0.8);
+}
+#designers {
+    display: flex;
+    justify-content: space-between;
+    max-width: 95%;
+}
+#designers div{
+    background-color: rgb(235, 235, 235);
+    margin-right: 20px;
+}
+#designers div p {
+    padding: 2px 15px 0px 10px;
+}
+
+/* ===================== Packages ===================== */
+
+.table {
+    text-align: center;
+    width: 100%;
+    margin-right: 15px;
+}
+#basicpro {
+    display: flex;
+    max-width: 94%;
+    margin-top: 20px;
+}
+#basic {
+    padding: 35px;
+    color: white;
+    background-color: #5b5b5b;
+    font-size: 24px;
+}
+#pro {
+    padding: 35px;
+    color: white;
+    background-color: #F44336;
+    font-size: 24px;
+}
+li {
+    padding: 15px;
+    background-color: rgb(235, 235, 235);
+    border-bottom: 1px rgb(213, 213, 213) solid;
+}
+.perroom {
+    display: list-item;
+    opacity: 0.6;
+}
+.price {
+    font-size: 28px;
+    font-weight: 400;
+}
+.signupbuttons {
+    padding: 14px 20px 14px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+#secondsignup {
+    background-color: #F44336;
+    color: white;
+}
+.signupbuttons:hover, #secondsignup:hover {
+    background-color: black;
+    color: white;
+}
+
+/* ===================== Contact ===================== */
+
+.inputs {
+    width: 93%;
+    height: 40px;
+    margin-bottom: 40px;
+}
+#button {
+    width: 93%;
+    height: 44px;
+    background-color: #F44336;
+    border: none;
+    color: white;
+    font-size: 14.5px;
+}
+#button:hover {
+    background-color: #b6b6b6;
+    color: black;
+}
+
+/* ===================== Little boxes ===================== */
+
+#lilbox-showcase, #lilbox-services, #lilbox-designers, #lilbox-packages, #lilbox-contact {
+    box-sizing: border-box;
+    position: absolute;
+    width: 65px;
+    height: 1px;
+    border: 6px solid #F44336;
+    border-radius: 5px;
+}
+#lilbox-showcase {
+    top: 280px;
+}
+#lilbox-services {
+    top: 1600px;
+    background-color: #F44336;
+}
+#lilbox-designers {
+    top: 2020px;
+    background-color: #F44336;
+}
+#lilbox-packages {
+    top: 2900px;
+}
+#lilbox-contact {
+    top: 3750px;
+}
+
+/* ===================== Footer ===================== */
+
+footer {
+    background-color: rgb(235, 235, 235);
+    height: 130px;
+    margin-top: 100px;
+}
+footer p {
+    position: absolute;
+    right: 0px;
+    padding: 50px 45px 40px 0px;
+}
+#w3css {
+    text-decoration: underline;
+}
+footer a:visited {
+    color: black;
+}
+footer a:hover {
+    color: rgb(133, 133, 133);
+}
+#icons {
+    font-size: 200%;
+    position: absolute;
+    left: 350px;
+    margin-top: 45px;
+}
+.fa-brands {
+    margin-right: 20px;
+}
+#icons a:visited, #icons a {
+    color: black;
+}
+#icons a:hover {
+    color:#F44336;
+}
